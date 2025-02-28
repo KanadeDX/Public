@@ -43,6 +43,8 @@ Here is a list of devices that are compatible with KanadeDX. If you have a devic
 - ✅ iPad Mini 5 (2019, A12, 3GB)
 - ✅ iPad 7th Gen (2019, A10, 3GB)  
   (Initial loading take a longer time)
+- ✅ iPad Pro 11 inches First generation (2018, A12X)
+  ("Smooth gameplay, average fps 119.95")
 - ✅ iPad Pro 2017 (2017, A10X, 4GB)
 - ⚠️ iPad 6th Generation (2018, A10, 2GB)  
   (Crashes when too much memory is used)
