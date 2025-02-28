@@ -87,6 +87,8 @@ Here is a list of devices that are compatible with KanadeDX. If you have a devic
 - ✅ Xiaomi Pad 5 Pro (2021, Snapdragon 870 5G, 6GB)
 - ✅ Samsung Tab S7+ (2020, Snapdragon 865+, 6GB)
 - ✅ Lenovo Xiaoxin Pad Pro 2025 (2024, MediaTek MT6897, 8GB)
+- ⚠️ OPPO Pad (Gen I) (2022, Snapdragon 870, 6GB)
+  ("Runs slow a little bit when there's a lot of notes, but it doesn't lag much")
 - ⚠️ Redmi Pad Pro / Poco Pad (2024, Snapdragon 7s Gen 2, 8GB)  
   ("Stutters a bit when there's a lot of notes, but still very playable")
 - ⚠️ Xiaomi Pad 5 (2021, Snapdragon 860, 6GB)  
