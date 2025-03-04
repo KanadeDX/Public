@@ -43,6 +43,8 @@ description: 与KanadeDX兼容的设备清单
 - ✅ iPad Mini 5 (2019, A12, 3GB)
 - ✅ iPad 第七代 (2019, A10, 3GB)  
   （初始加载时间较长）
+- ✅ iPad Pro 11英寸 第一代 (2018, A12X)
+  （流畅的游戏体验, 平均fps为119.95）
 - ✅ iPad Pro 2017 (2017, A10X, 4GB)
 - ⚠️ iPad 第六代 (2018, A10, 2GB)  
   （内存占用过高时可能崩溃）

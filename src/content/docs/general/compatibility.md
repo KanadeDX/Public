@@ -49,7 +49,7 @@ Here is a list of devices that are compatible with KanadeDX. If you have a devic
 - ⚠️ iPad 6th Generation (2018, A10, 2GB)  
   (Crashes when too much memory is used)
 
-**??????**
+**Virtual reality devices**
 
 - ✅ Apple Vision Pro (2024, M2, 16GB)
 
@@ -96,7 +96,7 @@ Here is a list of devices that are compatible with KanadeDX. If you have a devic
 - ⚠️ Xiaomi Pad 5 (2021, Snapdragon 860, 6GB)  
   ("A bit laggy, feel like 30fps")
 
-**??????**
+**Virtual reality devices**
 
 - ✅ Oculus Quest 3 (2023, Snapdragon XR2 Gen 2, 8GB)  
   ("Only index fingers")
