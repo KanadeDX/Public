@@ -51,7 +51,7 @@ The community has also created a [detailed device compatibility table](https://d
 - ⚠️ iPad 6th Generation (2018, A10, 2GB)  
   (Crashes when too much memory is used)
 
-**??????**
+**Virtual reality devices**
 
 - ✅ Apple Vision Pro (2024, M2, 16GB)
 
@@ -100,7 +100,7 @@ The community has also created a [detailed device compatibility table](https://d
 - ⚠️ Xiaomi Pad 6 Pro (2023, Snapdragon 8+ Gen 1, 8GB)  
   ("A bit laggy, with an average of 40fps in game")
 
-**??????**
+**Virtual reality devices**
 
 - ✅ Oculus Quest 3 (2023, Snapdragon XR2 Gen 2, 8GB)  
   ("Only index fingers")
