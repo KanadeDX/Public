@@ -54,3 +54,7 @@ Below are some existing issues that are currently being worked on:
 **Q: It crashes when I try to search for the Access Code for my Aime in-game!**
 
 > A: Please update to version Canary 250227.0222 or later.
+
+**Q: The game's performance is not ideal on my device, what can I do?**
+
+> A: Try lower the value of `Screen Resource Scale` option in the settings. However this will reduces the quality of the display, so you will need to make your own trade-offs.

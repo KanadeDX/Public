@@ -27,6 +27,10 @@ The game assets are separate from the program itself. After you downloaded the t
 2. Enter the download url in game. It should look something like `http://192.168.1.123:8080`. You can find the ip address of your computer in wifi settings. (This is not the same as your public IP address, and it will most likely start with either `192.168` or `10.0`).
 3. Click download.
 
+> **Note**: If miniserve show multiple IP addresses, you should try each of them on your phone/tablet browser until you find the correct one. There should only be one IP address that works.
+>
+> If no IP address works, your router firewall may be blocking the connection, which is common in university or public networks. You can try to connect your phone/tablet and computer to a mobile hotspot or a different router.
+
 ## 3. Game Settings
 
 You can adjust game settings by holding the start ▶️ button on the top right. 

@@ -6,6 +6,7 @@ import KanakumaPurple from '../assets/kanakuma_purple.png'
 
 
 <div class="kuma-container">
+    <img class="view-count" src="https://count.getloli.com/@kdx?name=kdx&theme=3d-num&padding=5&offset=0&align=top&scale=1&pixelated=1&darkmode=auto&no-cache=1" alt="View count" />
     <div id="bubble-container">
        <div class="bubble" id="kuma-bubble"></div>
     </div>
@@ -67,10 +68,15 @@ import KanakumaPurple from '../assets/kanakuma_purple.png'
         return messages[Math.floor(Math.random() * messages.length)];
     }
 
-    const kumaContainer = document.querySelector('.kuma-container');
+    const kumaContainer = document.querySelector('img.kuma');
 
     kumaContainer?.addEventListener('mouseover', () => {
         bubble!.textContent = getRandomMessage();
+        bubble!.classList.add('enable');
+    });
+
+    kumaContainer?.addEventListener('mouseout', () => {
+        bubble!.classList.remove('enable');
     });
 </script>
 
@@ -81,6 +87,21 @@ import KanakumaPurple from '../assets/kanakuma_purple.png'
     bottom: 0;
     right: 0;
     z-index: 5;
+}
+
+.view-count {
+    position: absolute;
+    bottom: 10px;
+    opacity: 0.5;
+    left: -100px;
+    width: 100px;
+    z-index: 1;
+    filter: hue-rotate(230deg);
+    transition: opacity 0.5s;
+}
+
+.view-count:hover {
+    opacity: 1;
 }
 
 .kuma {
@@ -115,7 +136,7 @@ import KanakumaPurple from '../assets/kanakuma_purple.png'
     pointer-events: none; /* Make the bubble not block hover */
 }
 
-.kuma-container:hover .bubble {
+.bubble.enable {
     opacity: 1;
 }
 

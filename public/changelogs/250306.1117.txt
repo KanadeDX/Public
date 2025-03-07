@@ -1,0 +1,22 @@
+<i>Fixes</i>
+
+* Setting cannot be opened when crashing on startup
+* Many incorrectly rendered shaders
+* Resource conversion infinite loop
+* Cannot hold down select button
+* Boss track crash
+* Missing touch over a fast stream of notes
+
+<i>Features</i>
+
+* ✨ WorldLink Online Multiplayer ✨
+(https://kdx.nightcord.com.de/general/worldlink)
+* ✨ Note Timing Display ✨
+(Can be enabled using In-Game settings)
+* LAN servers are now in whitelist
+* Better startup and setting UI
+* Add Sentry for better error tracking
+* Prevent game from quitting when pressing back button
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
