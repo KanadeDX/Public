@@ -1,0 +1,31 @@
+*Fixes*
+
+* Some animations/audio were inconsistent with the original game
+* The Keychip input field could not accept a dash (-)
+* Difficulty adjustment could be accidentally triggered in the song selection menu
+* QuickRetry and unfocused TrackSkip now only take effect during gameplay
+
+*Feature Additions*
+
+* ✨ Virtual frame buttons and lighting ✨
+* ✨ Vertical compact display mode ✨
+* Option to hide fireworks and note particle effects
+* Added “Judgment Boost” option
+* Coin insert button
+* A message will now appear in the bottom left when saving is disabled (e.g., when AutoPlay or Judgement Boost is enabled)
+
+*Optimizations*
+
+* Categorized in-game settings menu
+* Enabled lazy loading of game resources
+* Outside of gameplay, touches in area A (except 1 and 8) are now mapped to external keys
+* Completely refactored AMDaemon and built-in resources
+* New Aime icon and launch button icon
+* The 0x0000 in crash logs is no longer shown
+* No longer checks for DX_title.dat
+* DX switch button is now hidden during gameplay
+* TrackSkip button now triggers immediately instead of on long press
+* Logs will display when resource packs fail to load or aren&#x27;t properly converted
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
