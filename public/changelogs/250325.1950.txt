@@ -1,0 +1,15 @@
+If you were having performance issues or crashes with the last 250324.1701 update, please try this version.
+
+*Features*
+
+* Option to load JPEG/PNG song covers for custom charts
+
+*Fixes*
+
+* Temporarily revert AMDaemon to the stable implementation
+* Optimize touch area detection logic
+* Fix asset conversion issue with some omnimix/custom charts (Please recovert those charts if the cover are visibly glitched)
+* Fix some lazy-loading crashes
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
