@@ -9,7 +9,9 @@ To obtain game asset files, you can visit the files channel on either the [Teleg
 
 ## 2. Transferring Assets
 
-The game assets are separate from the program itself. After you downloaded the torrent containing game assets, you should do the following:
+The game assets are separate from the program itself. After you downloaded the torrent containing game assets, you should use one of the following options to transfer the files to your device:
+
+### Option A: Transferring via Miniserve
 
 1. Start miniserve in StreamingAssets
     - **Windows**: Click on `StreamingAssets/miniserve.exe` and wait 3s.
@@ -30,6 +32,36 @@ The game assets are separate from the program itself. After you downloaded the t
 > **Note**: If miniserve show multiple IP addresses, you should try each of them on your phone/tablet browser until you find the correct one. There should only be one IP address that works.
 >
 > If no IP address works, your router firewall may be blocking the connection, which is common in university or public networks. You can try to connect your phone/tablet and computer to a mobile hotspot or a different router.
+
+### Option B: Transferring Manually
+
+Please only try this option if miniserve does not work for you. Do note that wired transfer over USB 2.0 is almost always slower than miniserve wireless transfer and may take hours to complete.
+
+<details>
+<summary>Click to expand</summary>
+
+1. Get the files (with or without MovieData)
+
+**For Android**
+
+2. Copy the StreamingAssets folder into `/sdcard/Android/data/app.KanadeDX/files/KanadeDX/`  
+    There are several ways to do this, with varying speeds:
+    * USB MTP file transfer: **very slow**
+    * `adb push` command: **fast** (no progress bar)
+    * Download torrent on-device: **fast** (LibreTorrent/BiglyBT)
+    * Upload then download from cloud: **slow**
+    * Transfer zip and extract on-device: **fast** (require double storage space)
+3. Create a .txt file on PC and name it as FinishedDownload, delete the extension name ".txt", and then copy it to the game's folder
+
+**For iOS**
+
+2. Install 3uTools
+3. Install the driver, which can be done through 3uTools
+4. Plug the device onto your PC, open 3uTools and go to App, find KanadeDX, then click "View"
+5. Drag and drop,
+6. Create a .txt file on PC and name it as FinishedDownload, delete the extension name ".txt", and then copy it to the game's folder
+
+</details>
 
 ## 3. Game Settings
 
