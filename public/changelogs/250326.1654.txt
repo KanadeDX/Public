@@ -1,0 +1,8 @@
+*Fixes*
+
+* Potential audio issues (unexpected volume drops or static noise)
+* Issue with double-tapping unexpectedly when moving items on the Collections page in Settings
+* Behavior issues of key backlighting (unexpected fixed colors, flickering, or turning off)
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
