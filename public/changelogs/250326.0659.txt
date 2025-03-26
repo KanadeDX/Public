@@ -1,0 +1,12 @@
+If you were still having performance issues or crashes with the last 250325.1950 hot fix, please try this version.
+
+*Features*
+
+* Allow freedom mode
+
+*Optimizations*
+
+* Optimize frame button LED driver that was causing the performance issues
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
