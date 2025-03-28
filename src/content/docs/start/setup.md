@@ -13,7 +13,7 @@ The game assets are separate from the program itself. After you downloaded the t
 
 ### Option A: Transferring via Miniserve
 
-1. Start miniserve in StreamingAssets
+1. **Start miniserve in `StreamingAssets`**
     - **Windows**: Click on `StreamingAssets/miniserve.exe` and wait 3s.
     - **Mac**: Download the correct file from [GitHub Releases](https://github.com/svenstaro/miniserve/releases/tag/v0.29.0) depending on your system:
         - "aarch64-apple-darwin" if you have a M-series CPU.
@@ -25,9 +25,9 @@ The game assets are separate from the program itself. After you downloaded the t
         chmod +x ./miniserve* && ./miniserve* .
         ```
 
-    - **Linux**: [You know what to do.](https://www.youtube.com/watch?v=FOrineGipnw)
-2. Enter the download url in game. It should look something like `http://192.168.1.123:8080`. You can find the ip address of your computer in wifi settings. (This is not the same as your public IP address, and it will most likely start with either `192.168` or `10.0`).
-3. Click download.
+    - **Linux**: [You know what to do 😉.](https://www.youtube.com/watch?v=FOrineGipnw)
+2. **Enter the download url in game.** It should look something like `http://192.168.1.123:8080`. You can find the ip address of your computer in wifi settings. (This is not the same as your public IP address, and it will most likely start with either `192.168` or `10.0`).
+3. **Click download.**
 
 > **Note**: If miniserve show multiple IP addresses, you should try each of them on your phone/tablet browser until you find the correct one. There should only be one IP address that works.
 >
@@ -65,13 +65,13 @@ Please only try this option if miniserve does not work for you. Do note that wir
 
 ## 3. Game Settings
 
-You can adjust game settings by holding the start ▶️ button on the top right. 
+You can adjust game settings by holding the ◀ button on the top right.
 
 **Latency**
 
-- The default input latency is +1 frame, which matches the official cab. If you consistently have more LATE notes than EARLY notes, you can reduce it to 0.
+- The default input latency is **+1 frame**, which matches the official cab. If you consistently have more LATE notes than EARLY notes, you can reduce it to 0.
 
 **Network**
 
-- KanadeDX by default is connected to the AquaDX network. There is a default keychip included in the build, but accounts registered on that keychip will be hidden from the leaderboard.
-- If you want to see your scores, go to [https://aquadx.net](https://aquadx.net/) and register an account and obtain your keychip in the "Setup Connection" menu. Then, go to settings before entering the game and replace the default keychip with your keychip. Finally, you can click the AIME button to scan your virtual card and this will register your game profile with the server.
+- **KanadeDX** by default is connected to the **AquaDX network**. There is a default keychip included in the build, but accounts registered on that keychip will be hidden from the leaderboard.
+- If you want to see your scores, go to [https://aquadx.net](https://aquadx.net/) and register an account and obtain your keychip in the **"Setup Connection"** menu. Then, go to settings before entering the game and replace the default keychip with your keychip. Finally, you can click the **AIME button** to scan your virtual card and this will register your game profile with the server.
