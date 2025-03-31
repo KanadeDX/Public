@@ -1,0 +1,12 @@
+*Optimizations*
+
+* ⚡️ Resource Caching ⚡️
+You can now generate a cache in launcher settings. This will greatly improve loading speed the next time you start the game.
+
+Important: If you make any changes to resources after caching—such as editing xml, chart files, or adding/modifying/deleting Option files—please regenerate the cache.
+
+* Freedom Mode material has been updated from Japanese to English thank to community contribution.
+* &quot;Don&#x27;t break the cab&quot; warning has been added back and will display during loading.
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
