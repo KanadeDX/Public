@@ -19,7 +19,7 @@ The game assets are separate from the program itself. After you downloaded the t
         - "aarch64-apple-darwin" if you have a M-series CPU.
         - "x86_64-apple-darwin" if you have an Intel CPU.
 
-        Then, copy it to `StreamingAssets`, open a terminal in `StreamingAssets`, and type:
+        Then, copy it to `StreamingAssets`, open a terminal in `StreamingAssets`, delete the `miniserve.exe` for Windows, and type:
 
         ```bash
         chmod +x ./miniserve* && ./miniserve* .

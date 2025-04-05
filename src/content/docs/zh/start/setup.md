@@ -19,7 +19,7 @@ description: 第一次设置游戏时的指南
         - 如果你使用的是 M 系列 CPU，请下载 `"aarch64-apple-darwin"` 版本。
         - 如果你使用的是 Intel CPU，请下载 `"x86_64-apple-darwin"` 版本。
 
-        然后，将下载的文件复制到 `StreamingAssets` 目录，在该目录中打开终端，并输入：
+        然后，将下载的文件复制到 `StreamingAssets` 目录，在该目录中打开终端，删除目录下的 .exe 文件，并输入：
 
       ```bash
       chmod +x ./miniserve* && ./miniserve* .
