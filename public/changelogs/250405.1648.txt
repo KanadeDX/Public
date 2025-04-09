@@ -1,0 +1,19 @@
+*Localization*
+
+Support added for the following languages:
+* Indonesian
+* Spanish
+* Vietnamese
+
+*Fixes*
+
+* Fixed an issue where gameplay could not end properly during specific gameplay (especially in KALEID×SCOPE mode)
+* Fixed unintended display of cache elements during gameplay
+* Attempted fix for Thai language display issues (not fully tested; feedback needed)
+
+*Known Issues*
+
+* Potential performance drops during gameplay (source requested?)
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
