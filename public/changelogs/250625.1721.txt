@@ -1,0 +1,13 @@
+*Optimizations*
+
+* UI calculation performance improve
+* Graphics performance improve
+* Optimized memory usage
+
+*Fixes*
+
+* Visual Effects (especially &quot;Firework&quot; particles) visibility state does not follow user settings in some cases
+* Sub-monitor image cropped unexpectedly
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
