@@ -1,0 +1,8 @@
+*Fixes*
+
+* CI compilation pipeline problems
+* Unexpected line break in version number string
+* Game won&#x27;t launch
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
