@@ -1,0 +1,12 @@
+*Optimizations*
+
+* Further UI calculation performance improve
+* Further graphics performance improve
+* Further optimized memory usage
+
+*Known Issues*
+
+* For some non-standard implementations of the ALL.Net server, a proper connection may not be possible
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
