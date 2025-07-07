@@ -1,0 +1,6 @@
+*Fixes*
+
+* The default Frame (sub-monitor&#x27;s background) would turn black when Cache Manager was not loaded
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
