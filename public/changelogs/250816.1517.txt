@@ -1,0 +1,24 @@
+## ✨ KanadeDX is now based on SDGA 1.55! ✨
+- &quot;KanadeDX: 浮光掠影&quot; is now based on SDGA 1.55
+- All PRISM PLUS visual effects and general features
+- Tracks marked as &quot;LONG&quot; can now be played properly
+- Touch Holds outside of the C section can now be judged correctly
+
+* Due to the same code limitations as SDGA 1.55, the KALEID x SCOPE mode is currently only able to play the first 6 gates.
+* The new version is compatible with resources from the previous version. However, for the best experience, you can redownload and re-import updated external resources such as StreamingAssets and Options.
+* Users who use Loading Cache will need to regenerate it.
+* Official download channels for the new version&#x27;s resources have not yet been released. Please continue to follow the KanadeDX channel for future updates.
+* You can also find and import compatible resources yourself. Resource conversion may be required.
+
+## Bug Fixes
+- Fixed an issue where you couldn&#x27;t properly enter AdvDemoProcess (the &quot;RECOMMENDED MUSIC!&quot; Demo).
+
+## Known Issues
+- Potential decrease in gameplay performance.
+* Since PRISM PLUS adds more visual effects, its rendering occupies more system resources. KanadeDX has optimized performance as much as possible, but due to the nature of the game&#x27;s implementation, it&#x27;s still not possible to guarantee performance close to previous versions. We recommend that users with weaker device performance temporarily stay on the old version (KanadeDX: 現実逃避) for their gameplay experience.
+
+## Unknown Issues
+- Due to the extensive underlying changes in this update, it&#x27;s inevitable that some features may be incomplete during the testing phase. If you believe you have encountered an unknown issue, please report it in the KanadeDX Telegram group &quot;Help/求助&quot; sub-channel. Your contribution is greatly appreciated.
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
