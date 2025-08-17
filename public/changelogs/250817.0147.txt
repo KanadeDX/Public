@@ -1,0 +1,14 @@
+## ✨ KanadeDX is now based on SDGA 1.55! ✨
+* Resource files based on SDGA 1.55 have now been released! Check the KanadeDX Telegram group &quot;File/文件&quot; sub-channel for more information.
+* More variations of the resource files will be released soon. Please continue to follow the KanadeDX channel for future updates.
+
+## Optimizations
+- Improved the visual experience of the &quot;Fireworks&quot; particle effect
+- Slightly reduced the lag when the &quot;Fireworks&quot; particle effect loads for the first time
+
+## Bug Fixes
+- Fixed an issue with the LoadLocalImageLit (&quot;direct asset image load&quot;) feature not working correctly
+- Fixed an issue where some elements on the CollectionProcess (&quot;Collection Custom&quot; page) were not displaying correctly
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
