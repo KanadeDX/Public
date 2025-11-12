@@ -21,11 +21,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Install dependencies
         run: bun install
+      - name: Install Sharp with npm
+        run: npm install sharp@^0.32.5 --save-exact
       - name: Build with Astro
         run: bun run astro build
       - name: Upload artifact
