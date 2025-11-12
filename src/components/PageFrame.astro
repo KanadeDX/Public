@@ -15,6 +15,30 @@ import KanakumaPurple from '../assets/kanakuma_purple.png'
 
 <div id="bottom-margin"></div>
 
+<div id="announcement-modal" class="modal-overlay">
+    <div class="modal-content">
+        <h2>Important Announcement / 重要公告</h2>
+        <div class="modal-body">
+            <p>We have noticed that recently some individuals have been impersonating the official KanadeDX identity by setting up <b>FAKE servers and accounts</b> on social media platforms such as Discord and BiliBili.</p>
+            <p>Please be aware: <b>KanadeDX currently only has official accounts and communities on Discord and Telegram. We have never established official accounts on any other social media platforms.</b></p>
+            <p>If you have recently joined a KanadeDX Discord server through an unknown source, <b>please verify carefully to ensure you have joined the OFFICIAL KanadeDX Discord server (Est. Feb 2025, over 5,500 members).</b></p>
+            <p>To protect the security of your account and information, please ensure you download and use KanadeDX only through official/trusted channels.</p>
+            <br />
+            <p>我们注意到，近期有人正在冒用 KanadeDX 官方名义，在 Discord 和 BiliBili 等社交平台设立<b>虚假服务器及账号</b>。</p>
+            <p>请知悉：<b>KanadeDX 目前仅在 Discord 和 Telegram 拥有官方账号及社区。我们从未在其他任何社交平台设立官方账号。</b></p>
+            <p>如果您近期从不明渠道加入了 KanadeDX 的 Discord 服务器，<b>请仔细甄别，确保您加入的是 KanadeDX 官方 Discord 服务器。（特征：创建于 2025 年 2 月，成员数已超过 5,500 人。）</b></p>
+            <p>为保障您的账号和信息安全，请务必通过官方/可信渠道下载和使用 KanadeDX。</p>
+        </div>
+        <div class="modal-footer">
+            <label class="no-show-checkbox">
+                <input type="checkbox" id="no-show-again" />
+                <span>Don't show again / 不再提示</span>
+            </label>
+            <button id="close-modal-btn" disabled>Close / 关闭 (10)</button>
+        </div>
+    </div>
+</div>
+
 <script>
     const bubble = document.getElementById('kuma-bubble');
 
@@ -78,6 +102,55 @@ import KanakumaPurple from '../assets/kanakuma_purple.png'
     kumaContainer?.addEventListener('mouseout', () => {
         bubble!.classList.remove('enable');
     });
+
+    const STORAGE_KEY = 'kdx-announcement-dismissed';
+    const COUNTDOWN_SECONDS = 10;
+    
+    const modal = document.getElementById('announcement-modal');
+    const closeBtn = document.getElementById('close-modal-btn');
+    const noShowCheckbox = document.getElementById('no-show-again') as HTMLInputElement;
+    
+    function showModal() {
+        modal?.classList.add('show');
+    }
+    
+    function hideModal() {
+        modal?.classList.remove('show');
+    }
+    
+    function checkAndShowAnnouncement() {
+        const dismissed = localStorage.getItem(STORAGE_KEY);
+        if (!dismissed) {
+            showModal();
+            startCountdown();
+        }
+    }
+    
+    function startCountdown() {
+        let secondsLeft = COUNTDOWN_SECONDS;
+        
+        const updateButton = () => {
+            if (secondsLeft > 0) {
+                closeBtn!.textContent = `Close / 关闭 (${secondsLeft})`;
+                secondsLeft--;
+                setTimeout(updateButton, 1000);
+            } else {
+                closeBtn!.textContent = 'Close / 关闭';
+                (closeBtn as HTMLButtonElement).disabled = false;
+            }
+        };
+        
+        updateButton();
+    }
+    
+    closeBtn?.addEventListener('click', () => {
+        if (noShowCheckbox?.checked) {
+            localStorage.setItem(STORAGE_KEY, 'true');
+        }
+        hideModal();
+    });
+    
+    checkAndShowAnnouncement();
 </script>
 
 
@@ -161,5 +234,115 @@ import KanakumaPurple from '../assets/kanakuma_purple.png'
 
 #bottom-margin {
     height: 200px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-overlay.show {
+    display: flex;
+}
+
+.modal-content {
+    background-color: var(--sl-color-bg);
+    border: 2px solid var(--sl-color-gray-5);
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    color: var(--sl-color-text-accent);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.modal-body {
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: var(--sl-color-text);
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.no-show-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.no-show-checkbox input[type="checkbox"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.no-show-checkbox span {
+    color: var(--sl-color-text);
+    font-size: 0.95rem;
+}
+
+#close-modal-btn {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--sl-color-text-accent);
+    color: var(--sl-color-black);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 0.3s, background-color 0.3s;
+    font-weight: 500;
+}
+
+#close-modal-btn:hover:not(:disabled) {
+    opacity: 0.9;
+}
+
+#close-modal-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+    .modal-content {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .modal-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .modal-footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #close-modal-btn {
+        width: 100%;
+    }
 }
 </style>
