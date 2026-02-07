@@ -1,0 +1,19 @@
+## ✨ KanadeDX is now based on SDGA 1.60! ✨
+- So what you know it&#x27;s CiRCLE nothing special
+- Im too lazy so new features you find it out yourself
+- And of course yes we have New UI we have Kaleidxscope blablabla
+
+## Optimizations
+- Maybe some
+- Oh yes local whitelist updated
+- Freedom Mode English Translation
+- Improved yuri scene
+
+## Bug Fixes
+- A bunch of
+- Also fixed some kaLAGxscope
+- Really much graphic issue fixes
+- Idk
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
