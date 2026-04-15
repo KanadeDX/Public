@@ -1,0 +1,12 @@
+# <b>KanadeDX 260414.1816</b>
+
+ <b>Feature</b>
+• Android NFC Support: You can now swipe physical cards using NFC on Android devices.
+• External Reader Support: For Android tablets without NFC, USB-connected card readers are now supported (HINATA only).
+• Supported Cards: Scanning is restricted to official Amusement IC cards from the four major manufacturers and legacy Aime or Banapass compatible cards. Unofficial or non-standard cards are not supported.
+
+ <b>Fix</b>
+• Slider Precision: Sliders with decimals will no longer display precision up to the thousandths place.
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
