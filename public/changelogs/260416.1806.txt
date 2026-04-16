@@ -1,0 +1,11 @@
+# KanadeDX-260416.1806
+
+ Feature:
+- Support card reader led
+- Support remote card scan
+
+ Fix:<b> </b>
+- Fixed the missing background under the INFORMATION header on the Access Code display page.
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
