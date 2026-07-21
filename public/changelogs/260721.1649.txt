@@ -1,0 +1,15 @@
+## KanadeDX is now based on SDGA 1.65! insert two sparkle emojis
+- Added a &quot;Hide Submonitor&quot; toggle where you can hide the sub-monitor in portrait mode
+- Categorized as &quot;Game&quot; on iOS for better performance
+
+## Optimizations
+• TODO
+
+## Bug Fixes
+• AdvDemoProcess wasn&#x27;t demoing
+
+## TODO
+Name the version
+
+> [!WARNING]
+> <b>Notice: The release .apk and .ipa files are no longer hosted here and are moved to the Discord and Telegram group chats. Please <a href="https://kdx.nightcord.com.de/general/community">read more here</a>.
